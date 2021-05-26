@@ -6,10 +6,10 @@ namespace curzi.lorenzo._4H.LevenhStein2
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("LevenhStein 2, 9/04/2021");
+            Console.WriteLine("LevenhStein 2 di Lorenzo Curzi 4H, 9/04/2021");
 
-            string s = "ciao".ToLower();
-            string t = "miao".ToLower();
+            string s = "rombo".ToLower();
+            string t = "tromba".ToLower();
 
             Console.WriteLine($"La distanza di Levenshtein tra '{s}' e '{t}' vale: {DistanzaLevenSthein(s, t)}");
         }
@@ -55,7 +55,7 @@ namespace curzi.lorenzo._4H.LevenhStein2
             }
         }
 
-        private static int Minimo(int a, int b, int c)
+        static int Minimo(int a, int b, int c)
         {
             int retVal = a;
 
